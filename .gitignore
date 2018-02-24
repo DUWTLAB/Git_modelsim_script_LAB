@@ -1,0 +1,13 @@
+#the ignored files must first be deleted manually
+
+*.swp
+
+# ignore dir
+/modelsim/*
+
+# except these project files
+!/modelsim/build.do
+!/modelsim/sim_quit.do
+!/modelsim/sim_run.do
+!/modelsim/compile.f
+
